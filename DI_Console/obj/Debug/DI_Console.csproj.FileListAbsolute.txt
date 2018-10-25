@@ -8,3 +8,13 @@ C:\Users\amit.dhir\source\repos\TechnossusOne\TechnossusOne\obj\Debug\DI_Console
 C:\Users\amit.dhir\source\repos\TechnossusOne\TechnossusOne\obj\Debug\DI_Console.csproj.CopyComplete
 C:\Users\amit.dhir\source\repos\TechnossusOne\TechnossusOne\obj\Debug\TechnossusOne.exe
 C:\Users\amit.dhir\source\repos\TechnossusOne\TechnossusOne\obj\Debug\TechnossusOne.pdb
+D:\2018\Technossus\DependencyInjection\DI_Console\bin\Debug\TechnossusOne.exe.config
+D:\2018\Technossus\DependencyInjection\DI_Console\bin\Debug\TechnossusOne.exe
+D:\2018\Technossus\DependencyInjection\DI_Console\bin\Debug\TechnossusOne.pdb
+D:\2018\Technossus\DependencyInjection\DI_Console\bin\Debug\Autofac.dll
+D:\2018\Technossus\DependencyInjection\DI_Console\bin\Debug\Autofac.xml
+D:\2018\Technossus\DependencyInjection\DI_Console\obj\Debug\DI_Console.csprojAssemblyReference.cache
+D:\2018\Technossus\DependencyInjection\DI_Console\obj\Debug\DI_Console.csproj.CoreCompileInputs.cache
+D:\2018\Technossus\DependencyInjection\DI_Console\obj\Debug\DI_Console.csproj.CopyComplete
+D:\2018\Technossus\DependencyInjection\DI_Console\obj\Debug\TechnossusOne.exe
+D:\2018\Technossus\DependencyInjection\DI_Console\obj\Debug\TechnossusOne.pdb
