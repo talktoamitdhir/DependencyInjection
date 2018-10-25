@@ -17,3 +17,12 @@ The sample demonstrates dependency injection with Autofac.
 * Single Instance
 * InstancePerDependency (Default with Autofac)
 * Lifetime Scope
+
+## DI in just 4 steps
+
+* Create container
+* Register dependency
+* Build Container
+![Step 1, 2, 3](images/1.png)
+* Resolve dependency
+![Step 4](images/2.png)

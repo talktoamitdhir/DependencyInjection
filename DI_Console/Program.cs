@@ -1,5 +1,5 @@
-﻿using Autofac;
-using System;
+﻿using System;
+using Autofac;
 using TechnossusOne.Interfaces;
 using TechnossusOne.Services;
 
@@ -34,10 +34,10 @@ namespace TechnossusOne
             builder
                 .RegisterType<ClientService>()
                 .As<IClientService>()
-            //  ;
+              ;
             //.SingleInstance();
             //.InstancePerDependency();
-            .InstancePerLifetimeScope();
+            //.InstancePerLifetimeScope();
 
             _container = builder.Build();
         }
