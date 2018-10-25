@@ -6,3 +6,5 @@
 /DI_WebAPI/bin
 /DI_WebAPI/obj/Debug
 /packages
+/DI_Console/obj/Debug
+/DI_Console/bin/Debug
