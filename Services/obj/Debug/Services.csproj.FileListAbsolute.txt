@@ -1,9 +1,9 @@
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Services.dll
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Services.pdb
-C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Repositories.dll
-C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Repositories.pdb
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\obj\Debug\Services.csprojAssemblyReference.cache
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\obj\Debug\Services.csproj.CopyComplete
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\obj\Debug\Services.dll
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\obj\Debug\Services.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Interfaces.dll
+C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Interfaces.pdb

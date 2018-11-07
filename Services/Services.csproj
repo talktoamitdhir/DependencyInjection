@@ -42,13 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClientService.cs" />
-    <Compile Include="Interface\IClientService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Repositories\Repositories.csproj">
-      <Project>{BD1B12BE-2856-4211-9A1D-1FDC2C15D70E}</Project>
-      <Name>Repositories</Name>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{FCF51DD7-254D-4338-8F08-22A1C24AF02A}</Project>
+      <Name>Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

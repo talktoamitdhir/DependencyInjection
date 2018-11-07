@@ -1,5 +1,5 @@
-﻿using Repositories.Interfaces;
-using Repositories.Models;
+﻿using Interfaces.Models;
+using Interfaces.Repository;
 using System;
 using System.Collections.Generic;
 

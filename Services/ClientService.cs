@@ -1,6 +1,6 @@
-﻿using Repositories.Interfaces;
-using Repositories.Models;
-using Services.Interface;
+﻿using Interfaces.Models;
+using Interfaces.Repository;
+using Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +32,6 @@ namespace Services
             }
 
             return _clientRepository.GetAllClients().Where(w => w.RelationPeriod > 5).ToList();
-        }
-
+        }        
     }
 }
