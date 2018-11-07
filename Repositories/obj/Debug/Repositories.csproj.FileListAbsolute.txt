@@ -1,0 +1,5 @@
+C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\bin\Debug\Repositories.dll
+C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\bin\Debug\Repositories.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.dll
+C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.pdb

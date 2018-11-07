@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Repositories.Interfaces;
+using Repositories.Models;
+using System;
 using System.Collections.Generic;
-using TechnossusOne.Interfaces;
-using TechnossusOne.Models;
 
-namespace TechnossusOne.Services
+namespace Repositories
 {
     public class ClientRepository : IClientRepository
     {

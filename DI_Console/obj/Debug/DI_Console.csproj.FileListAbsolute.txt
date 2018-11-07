@@ -18,3 +18,17 @@ C:\Users\amit.dhir\source\repos\TechnossusOne\DI_Console\obj\Debug\DI_Console.cs
 C:\Users\amit.dhir\source\repos\TechnossusOne\DI_Console\obj\Debug\DI_Console.csproj.CopyComplete
 C:\Users\amit.dhir\source\repos\TechnossusOne\DI_Console\obj\Debug\TechnossusOne.exe
 C:\Users\amit.dhir\source\repos\TechnossusOne\DI_Console\obj\Debug\TechnossusOne.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\DI_Console.csprojAssemblyReference.cache
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\DI_Console.csproj.CoreCompileInputs.cache
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\TechnossusOne.exe.config
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\TechnossusOne.exe
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\TechnossusOne.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Autofac.dll
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Repositories.dll
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Services.dll
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Repositories.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Services.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Autofac.xml
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\DI_Console.csproj.CopyComplete
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\TechnossusOne.exe
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\TechnossusOne.pdb

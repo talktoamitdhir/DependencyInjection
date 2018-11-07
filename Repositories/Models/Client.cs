@@ -1,4 +1,4 @@
-﻿namespace TechnossusOne.Models
+﻿namespace Repositories.Models
 {
     public class Client
     {
@@ -6,6 +6,6 @@
 
         public string Name { get; set; }
 
-        public int  RelationPeriod { get; set; }
+        public int RelationPeriod { get; set; }
     }
 }

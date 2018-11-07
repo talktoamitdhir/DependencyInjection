@@ -1,7 +1,9 @@
 ﻿using Autofac;
+using Repositories;
+using Repositories.Interfaces;
+using Services;
+using Services.Interface;
 using System;
-using TechnossusOne.Interfaces;
-using TechnossusOne.Services;
 
 namespace TechnossusOne
 {
