@@ -32,3 +32,5 @@ C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Autofac
 C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\DI_Console.csproj.CopyComplete
 C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\TechnossusOne.exe
 C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\obj\Debug\TechnossusOne.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Interfaces.dll
+C:\Users\amit.dhir\source\repos\DependencyInjection\DI_Console\bin\Debug\Interfaces.pdb

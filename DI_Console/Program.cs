@@ -1,8 +1,8 @@
 ﻿using Autofac;
+using Interfaces.Repository;
+using Interfaces.Services;
 using Repositories;
-using Repositories.Interfaces;
 using Services;
-using Services.Interface;
 using System;
 
 namespace TechnossusOne
@@ -16,9 +16,31 @@ namespace TechnossusOne
 
         static void Main(string[] args)
         {
-            //DisplayClients();
+            DisplayClientsWithoutAutoFac();
 
-            DisplayClientsUsingAutofac();
+            //DisplayClientsUsingAutofac();
+        }
+
+        private static void DisplayClientsWithoutAutoFac()
+        {
+            ClientRepository clientRepository = new ClientRepository();
+
+            ClientService clientService = new ClientService(clientRepository);
+
+            clientService.GetLongTermClients().ForEach((f) =>
+            {
+                Console.WriteLine($" Client Name : {f.Name} \n\n");
+                Console.ReadKey();
+            });
+        }
+
+        private static void DisplayClientsUsingAutofac()
+        {
+            BuildAutoFacContainer();
+
+            BeginScopeOne();
+
+            BeginScopeTwo();
         }
 
         private static void BuildAutoFacContainer()
@@ -35,33 +57,11 @@ namespace TechnossusOne
             builder
                 .RegisterType<ClientRepository>()
                 .As<IClientRepository>()
-            //.InstancePerDependency();
-            .SingleInstance();
+            .InstancePerDependency();
+            //.SingleInstance();
             //.InstancePerLifetimeScope();
 
             _container = builder.Build();
-        }
-
-        private static void DisplayClients()
-        {
-            //ClientRepository clientRepository = new ClientRepository();
-
-            //ClientService clientService = new ClientService(clientRepository);
-
-            //clientService.GetLongTermClients().ForEach((f) =>
-            //{
-            //    Console.WriteLine($" Client Name : {f.Name} \n\n");
-            //    Console.ReadKey();
-            //});
-        }
-
-        private static void DisplayClientsUsingAutofac()
-        {
-            BuildAutoFacContainer();
-
-            BeginScopeOne();
-
-            BeginScopeTwo();
         }
 
         private static void BeginScopeOne()
