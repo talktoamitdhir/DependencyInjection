@@ -3,3 +3,9 @@ C:\Users\amit.dhir\source\repos\DependencyInjection\Interfaces\bin\Debug\Interfa
 C:\Users\amit.dhir\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\amit.dhir\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.dll
 C:\Users\amit.dhir\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\talkt\source\repos\DependencyInjection\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\talkt\source\repos\DependencyInjection\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.pdb

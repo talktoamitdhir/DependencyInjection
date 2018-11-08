@@ -7,3 +7,12 @@ C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\bin\Debug\Inter
 C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\bin\Debug\Interfaces.pdb
 C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
 C:\Users\amit.dhir\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\bin\Debug\Repositories.dll
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\bin\Debug\Repositories.pdb
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\bin\Debug\Interfaces.dll
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\bin\Debug\Interfaces.pdb
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.dll
+C:\Users\talkt\source\repos\DependencyInjection\Repositories\obj\Debug\Repositories.pdb

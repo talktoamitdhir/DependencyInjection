@@ -7,3 +7,12 @@ C:\Users\amit.dhir\source\repos\DependencyInjection\Services\obj\Debug\Services.
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\obj\Debug\Services.pdb
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Interfaces.dll
 C:\Users\amit.dhir\source\repos\DependencyInjection\Services\bin\Debug\Interfaces.pdb
+C:\Users\talkt\source\repos\DependencyInjection\Services\bin\Debug\Services.dll
+C:\Users\talkt\source\repos\DependencyInjection\Services\bin\Debug\Services.pdb
+C:\Users\talkt\source\repos\DependencyInjection\Services\bin\Debug\Interfaces.dll
+C:\Users\talkt\source\repos\DependencyInjection\Services\bin\Debug\Interfaces.pdb
+C:\Users\talkt\source\repos\DependencyInjection\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\talkt\source\repos\DependencyInjection\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\talkt\source\repos\DependencyInjection\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\talkt\source\repos\DependencyInjection\Services\obj\Debug\Services.dll
+C:\Users\talkt\source\repos\DependencyInjection\Services\obj\Debug\Services.pdb
