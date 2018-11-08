@@ -16,9 +16,9 @@ namespace TechnossusOne
 
         static void Main(string[] args)
         {
-            DisplayClientsWithoutAutoFac();
+            //DisplayClientsWithoutAutoFac();
 
-            //DisplayClientsUsingAutofac();
+            DisplayClientsUsingAutofac();
         }
 
         private static void DisplayClientsWithoutAutoFac()
@@ -47,21 +47,95 @@ namespace TechnossusOne
         {
             var builder = new ContainerBuilder();
 
+            Register_PerDependencyService_PerDependencyRepository(builder);
+
+            //Register_PerDependencyService_SingleRepository(builder);
+
+            //Register_PerDependencyService_LifeTimeRepository(builder);
+
+            //Register_SingleService_LifeTimeRepository(builder); Explain me
+
+            //Register_LifeTimeService_LifeTimeRepository(builder);
+
+            _container = builder.Build();
+        }
+        
+        private static void Register_PerDependencyService_PerDependencyRepository(ContainerBuilder builder)
+        {
             builder
                 .RegisterType<ClientService>()
                 .As<IClientService>()
-            .InstancePerDependency();
-            //.SingleInstance();
-            //.InstancePerLifetimeScope();
+                .InstancePerDependency();
 
             builder
                 .RegisterType<ClientRepository>()
                 .As<IClientRepository>()
-            .InstancePerDependency();
-            //.SingleInstance();
-            //.InstancePerLifetimeScope();
+                .InstancePerDependency();
+        }
 
-            _container = builder.Build();
+        private static void Register_PerDependencyService_SingleRepository(ContainerBuilder builder)
+        {
+            builder
+                .RegisterType<ClientService>()
+                .As<IClientService>()
+                .InstancePerDependency();
+
+            builder
+                .RegisterType<ClientRepository>()
+                .As<IClientRepository>()
+                .SingleInstance();
+        }
+
+        private static void Register_PerDependencyService_LifeTimeRepository(ContainerBuilder builder)
+        {
+            builder
+                .RegisterType<ClientService>()
+                .As<IClientService>()
+                .InstancePerDependency();
+
+            builder
+                .RegisterType<ClientRepository>()
+                .As<IClientRepository>()
+                .InstancePerLifetimeScope();
+        }
+
+        private static void Register_SingleService_LifeTimeRepository(ContainerBuilder builder)
+        {
+            builder
+                .RegisterType<ClientService>()
+                .As<IClientService>()
+                .SingleInstance();
+
+            builder
+                .RegisterType<ClientRepository>()
+                .As<IClientRepository>()
+                .InstancePerLifetimeScope();
+        }
+
+        private static void Register_LifeTimeService_LifeTimeRepository(ContainerBuilder builder)
+        {
+            builder
+                .RegisterType<ClientService>()
+                .As<IClientService>()
+                .InstancePerLifetimeScope();
+
+            builder
+                .RegisterType<ClientRepository>()
+                .As<IClientRepository>()
+                .InstancePerLifetimeScope();
+        }
+
+        private static void Register_SingleService_PerDependencyRepository(ContainerBuilder builder)
+        {
+            builder
+                .RegisterType<ClientService>()
+                .As<IClientService>()
+                .SingleInstance();
+
+            builder
+                .RegisterType<ClientRepository>()
+                .As<IClientRepository>()
+                .InstancePerDependency();
         }
 
         private static void BeginScopeOne()
