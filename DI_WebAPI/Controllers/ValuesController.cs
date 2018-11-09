@@ -1,39 +1,24 @@
-﻿using System;
+﻿using Interfaces.Services;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace DI_WebAPI.Controllers
 {
     public class ValuesController : ApiController
     {
+        private IClientService _clientService;
+
+        public ValuesController(IClientService clientService)
+        {
+            _clientService = clientService;
+        }
+
         // GET api/values
-        public IEnumerable<string> Get()
+        [Route("InstancePerRequest-Service_InstancePerRequest-Repository")]
+        public List<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _clientService.GetLongTermWebAPIClients();
         }
 
-        // GET api/values/5
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
-        }
     }
 }

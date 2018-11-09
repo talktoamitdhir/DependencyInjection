@@ -32,6 +32,26 @@ namespace Services
             }
 
             return _clientRepository.GetAllClients().Where(w => w.RelationPeriod > 5).ToList();
-        }        
+        }
+
+        public List<string> GetLongTermWebAPIClients()
+        {
+            List<string> result = new List<string>();
+
+            ++_i;
+
+            if (_i == 1)
+            {
+                result.Add($" Created Brand New Service object");
+            }
+            else
+            {
+                result.Add($" Old Service object is used { _i } times");
+            }
+
+            result.Add(_clientRepository.GetAllWebAPIClients());
+
+            return result;
+        }
     }
 }

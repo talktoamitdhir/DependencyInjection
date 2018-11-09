@@ -9,3 +9,4 @@ C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.
 C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.dll
 C:\Users\talkt\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\amit.dhir\source\repos\DependencyInjection\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache

@@ -6,5 +6,7 @@ namespace Interfaces.Repository
     public interface IClientRepository
     {
         List<Client> GetAllClients();
+
+        string GetAllWebAPIClients();
     }
 }

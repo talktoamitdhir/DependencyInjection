@@ -6,5 +6,7 @@ namespace Interfaces.Services
     public interface IClientService
     {
         List<Client> GetLongTermClients();
+
+        List<string> GetLongTermWebAPIClients();
     }
 }

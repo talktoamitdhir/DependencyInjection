@@ -42,5 +42,18 @@ namespace Repositories
             };
         }
 
+        public string GetAllWebAPIClients()
+        {
+            ++_i;
+
+            if (_i == 1)
+            {
+                return $" Created Brand New Repository object";
+            }
+            else
+            {
+                return $" Old Repository object is used { _i } times ";
+            }
+        }
     }
 }
