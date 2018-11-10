@@ -47,7 +47,13 @@ namespace TechnossusOne
         {
             var builder = new ContainerBuilder();
 
-            Register_PerDependencyService_PerDependencyRepository(builder);
+            //builder
+            //    .RegisterType<ClientService>()
+            //    .As<IClientService>();
+
+            //builder
+            //    .RegisterType<ClientRepository>()
+            //    .As<IClientRepository>();
 
             //Register_PerDependencyService_SingleRepository(builder);
 

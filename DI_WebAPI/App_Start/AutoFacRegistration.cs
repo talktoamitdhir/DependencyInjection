@@ -29,9 +29,11 @@ namespace DI_WebAPI.App_Start
         {
             //Register_PerRequestService_PerRequestRepository(builder);
 
-            Register_PerRequestService_SingleRepository(builder);
+            //Register_PerRequestService_SingleRepository(builder);
+
+            Register_PerRequestService_LifetimeRepository(builder);
         }
-        
+
         private static void Register_PerRequestService_PerRequestRepository(ContainerBuilder builder)
         {
             builder.RegisterType<ClientService>()
@@ -50,6 +52,17 @@ namespace DI_WebAPI.App_Start
             builder.RegisterType<ClientRepository>()
                 .As<IClientRepository>()
                 .SingleInstance();
+        }
+
+        private static void Register_PerRequestService_LifetimeRepository(ContainerBuilder builder)
+        {
+            builder.RegisterType<ClientService>()
+                .As<IClientService>()
+                .InstancePerRequest();
+
+            builder.RegisterType<ClientRepository>()
+                .As<IClientRepository>()
+                .InstancePerLifetimeScope();
         }
 
     }
