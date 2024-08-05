@@ -1,2 +1,2 @@
 sample,fastq_1,fastq_2,strandedness
-CONTROL_REP1,P7741_R1.fastq.gz,P7741_R2.fastq.gz,auto
+CONTROL_REP1,apps1103_300_10ng_16418_H05_S40_R1_001.fastq.gz,apps1103_300_10ng_16418_H05_S40_R2_001.fastq.gz.fastq.gz,auto
