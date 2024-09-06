@@ -72,7 +72,7 @@ while True:
     if (prev_delta_x!=delta_x or prev_delta_y!=delta_y): 
         prev_delta_x = delta_x
         prev_delta_y = delta_y 
-        msg=json.dumps({"tdelta_ype": "move","x":  delta_x,"y": delta_y})        
+        msg=json.dumps({"type": "move","x":  delta_x,"y": delta_y})        
         mqtt_client.publish(topic, str(msg))
         pyautogui.moveTo(center_x, center_y)
 
