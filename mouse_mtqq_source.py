@@ -1,10 +1,9 @@
 import json
-import sys
+
+import pyautogui
 import time
 import paho.mqtt.client as mqtt
 import ssl
-
-import pyautogui
 
 port = 8883
 broker = "065dfdc87c034835a0618c9577b5beb8.s1.eu.hivemq.cloud"
@@ -18,7 +17,7 @@ def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
 
 mqtt_client = mqtt.Client(callback_api_version=mqtt.CallbackAPIVersion.VERSION2
-                          ,client_id="myclient"
+                          ,client_id="mdelta_yclient"
                           ,clean_session=True
                           ,userdata=None
                           ,protocol=mqtt.MQTTv311
@@ -46,12 +45,36 @@ if result != 0:
 #is message getting published?
 #print("Is Message got published? ", resultPublish.is_published())
 
-#Format looks like {'type': 'move', 'x': 642, 'y': 970}
+#Format looks like {'tdelta_ype': 'move', 'delta_x': 642, 'delta_y': 970}
+
+# Changes as per https://docs.google.com/document/d/1cdkMqVwNma-kTNs2hdkxf66jkxs6oZiKX4sQLJf_Xdc/edit#heading=h.3mx4fdelta_ywm1vwn
+
+# Get the screen resolution
+screen_width, screen_height = pyautogui.size()
+
+# Calculate the center coordinates
+center_x = screen_width / 2
+center_y = screen_height / 2
+
+prev_delta_x = 0
+prev_delta_y = 0
 
 while True:
     x, y = pyautogui.position()
-    # Create MQTT message based on mouse position    
-    msg=json.dumps({"type": "move","x":  x,"y": y})
-    mqtt_client.publish(topic, str(msg))
-    time.sleep(0.01)  # Adjust sleep time based on desired frequency
+
+    # Calculate the delta coordinates
+    delta_x = x - center_x
+    delta_y = y - center_y
+    
+    # Create MQTT message based on mouse position        
+    # if prev_delta_x == 0 and prev_delta_y == 0:
+        
+    if (prev_delta_x!=delta_x or prev_delta_y!=delta_y): 
+        prev_delta_x = delta_x
+        prev_delta_y = delta_y 
+        msg=json.dumps({"tdelta_ype": "move","x":  delta_x,"y": delta_y})        
+        mqtt_client.publish(topic, str(msg))
+        pyautogui.moveTo(center_x, center_y)
+
+    time.sleep(0.01)  # Adjust sleep time based on desired frequencdelta_y
 
